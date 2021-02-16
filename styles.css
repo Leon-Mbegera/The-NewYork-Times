@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.one {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.right-item {
+    background-color: #326892;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+}
+
