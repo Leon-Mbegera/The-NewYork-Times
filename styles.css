@@ -92,7 +92,6 @@ p {
 
 figcaption {
   width: 70%;
-
   text-align: left;
   font-size: 12px;
   margin: 10px auto 50px auto;
@@ -101,7 +100,6 @@ figcaption {
 .cards {
   width: 30%;
   border: 1px solid grey;
-
   align-items: center;
   position: relative;
   margin: 0 0 2% 2%;
@@ -151,7 +149,6 @@ figcaption {
 .more-in-space {
   margin-top: 20px;
   text-decoration: none;
-
   margin-left: 2%;
   position: relative;
   width: 80%;
@@ -271,7 +268,6 @@ a:hover {
   display: flex;
   font-size: 10px;
   margin: auto;
-  display: flex;
   justify-content: space-around;
   width: 90%;
   margin-bottom: 20px;
