@@ -25,6 +25,11 @@ header {
   margin-top: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .read-comments {
   margin-right: 25px;
 }
@@ -87,24 +92,19 @@ p {
 
 figcaption {
   width: 70%;
-  margin: auto;
+
   text-align: left;
   font-size: 12px;
   margin: 10px auto 50px auto;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .cards {
   width: 30%;
   border: 1px solid grey;
-  margin-bottom: 20px;
+
   align-items: center;
   position: relative;
-  margin: 0 0 0 2%;
+  margin: 0 0 2% 2%;
 }
 
 .suggestions {
@@ -151,8 +151,10 @@ a {
 .more-in-space {
   margin-top: 20px;
   text-decoration: none;
-  width: 10%;
+
   margin-left: 2%;
+  position: relative;
+  width: 80%;
 }
 
 .more-title {
@@ -162,15 +164,11 @@ a {
 
 .more-description {
   color: grey;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .more-img {
   width: 100%;
-}
-
-.astronomy {
-  margin-top: 20px;
 }
 
 .Theory-hr {
@@ -222,13 +220,14 @@ a {
 
 .inflation {
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 5px 5px;
 }
 
 .astronomy {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .object-details {
@@ -237,14 +236,8 @@ a {
   text-align: left;
 }
 
-.more-in-space {
-  position: relative;
-  width: 80%;
-}
-
 .popular {
   width: 400px;
-
   border-top: 1px solid black;
   margin-right: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -277,8 +270,11 @@ a:hover {
 .concerns {
   display: flex;
   font-size: 10px;
-
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-bottom: 20px;
 }
 
 .last-section {
@@ -327,11 +323,4 @@ a:hover {
 .completion {
   display: grid;
   grid-template-columns: 80% 20%;
-}
-
-.concerns {
-  display: flex;
-  justify-content: space-around;
-  width: 90%;
-  margin-bottom: 20px;
 }
