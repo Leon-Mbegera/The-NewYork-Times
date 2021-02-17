@@ -1,10 +1,10 @@
 name: Linters
-​
+
 on: pull_request
-​
+
 env:
   FORCE_COLOR: 1
-​
+
 jobs:
   lighthouse:
     name: Lighthouse
@@ -46,3 +46,4 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
+
