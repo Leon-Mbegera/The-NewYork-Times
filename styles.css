@@ -19,7 +19,21 @@ header {
   padding: 10px;
   border-bottom: 1px solid grey;
 }
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}    
+.read-comments {
+    margin-right: 25px;
 
+}
+.read-comments > a {
+    color: white;
+    background-color:  #326892;;
+    padding: 10px;
+}
 .one {
     margin-right: 20px;
     text-decoration: none;
@@ -76,12 +90,12 @@ a {
     
 }
 .cards {
-    width: 250px;
+    width: 30%;
     border: 1px solid grey;
     margin-bottom: 20px;
     align-items:center;
     position: relative;
-    margin-right: 20px;
+    margin: 0 0 0 2%;
 }
 .suggestions {
     display:flex;
@@ -116,11 +130,13 @@ a {
 }
 .more {
     display: flex;
+    width: 96%;
 }
 .more-in-space {
     margin-top: 20px;
-    margin-left: 10px;
     text-decoration: none;
+    width: 10%;
+    margin-left: 2%;
 }
 .more-title {
     font-size: 12px;
@@ -131,7 +147,7 @@ a {
     margin-top: 0px;
 }
 .more-img {
-    width: 260px;
+    width: 100%;
 }
  .astronomy {
     margin-top: 20px;
@@ -197,7 +213,7 @@ a {
 }
 .popular {
   width: 400px;
-  float: right;
+  
   border-top: 1px solid black;
   margin-right: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -212,11 +228,9 @@ a {
     font-weight: 400;
 }
 .services {
-    position: relative;
+    
     border-left: 1px solid grey;
-    margin-right: 10px;
-    width: 200px;
-    float: right;
+
 }
 .services > div {
     padding: 5px;
@@ -255,18 +269,29 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    margin-right: 20px;
     font-size: 14px;
   }
   .editors-heading {
       margin-top: 10px;
       margin-bottom: 10px;
   }
-  .editors-img {
-      width: 260px;
-      margin-bottom: 0px;
+
+  .grid {
+      display: grid;
+      grid-template-columns: 70% 30%;
   }
-  .editors-fig {
-      font-size: 12px;
-      text-align: right;
+
+  .article-bottom {
+     margin: 10px 0 20px 0;
+  }
+  .completion {
+      display: grid;
+      grid-template-columns: 80% 20%;
+  }
+  .concerns {
+      display: flex;
+      justify-content: space-around;
+      width: 90%;
+      margin-bottom: 20px;
   }
