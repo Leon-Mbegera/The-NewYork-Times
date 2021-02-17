@@ -113,7 +113,41 @@ a {
     margin: 20px auto;
 }
 .figcaption-two {
-    
     width: 50%;
     margin-left: 25%;
+}
+.inflation {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 5px 5px;
+}
+.astronomy {
+  display: flex;
+  flex-wrap: wrap;
+}
+.
+    
+.object-details {
+    font-size: 12px;
+}
+.more-in-space {
+    position: relative;
+    width: 80%;
+}
+.popular {
+  width: 400px;
+  float: right;
+  border-top: 1px solid black;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding-top: 20px;
+
+}
+.popular > h3 {
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+
 }
