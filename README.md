@@ -2,9 +2,9 @@
 
 First Individual(Solo) Project
 
-Additional description about the project and its features.
-
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a individual project that shows the NewYorkTimes daily webpage.
+
+The webpage is focused of showing positioning of elements using grid, float and flex.
 
 <img src="./images/NYTScreenshot.png" alt="Screenshot">
 
