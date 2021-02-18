@@ -320,3 +320,22 @@ a:hover {
   display: grid;
   grid-template-columns: 80% 20%;
 }
+.editors-side {
+  align-items: center;
+  max-width: 300px;
+  display: flex;
+  margin-top: 10px;
+
+
+}
+.side-content {
+ position: absolute;
+ right: 10px;
+ margin-top: 0;
+ 
+}
+.editors-side-img {
+  width: 100px;
+  margin-right: 5px;
+ 
+}
