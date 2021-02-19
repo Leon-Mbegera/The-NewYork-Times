@@ -444,10 +444,50 @@
                 </a>
             </div>
         </div>
-        <section class="grid">
+        <form action="#" method="#"> 
+            <fieldset>
+                <legend>Give Us Your Views</legend>
+                <ul>
+                    <li>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="user_name" class="credentials"> </input>
+                    </li>
+                
+            
+                    <li>
+                        <label for="mail">Email: </label>
+                        <input type="email" id="mail" name="user_email" class="credentials"> </input>
+                    </li>
+                    <li>
+                        <label for="age">Age: </label>
+                        <input type="number" id="age" name="user_age"> </input>
+                    </li>
+                    <li class="radio-buttons">
+                        <label for="feedback">Has this newletter been useful: </label>
+                        <input type="radio" id="feedback" name="user_feedback"> Absolutely </input>
+                        <input type="radio" id="feedback" name="user_feedback"> To some extent </input>
+                        <input type="radio" id="feedback" name="user_feedback"> Not really </input>
+                    </li>   
+            
+                    <li>
+                        <label for="comments">Your comments: </label>
+                        <textarea id="comments" name="user_comments" placeholder="Add your comments here..."> </textarea>
+                    </li>
+                    <li>
+                        <input type="checkbox"> Subscribe to the newsletter </input>
+                    </li>
+                    <li>
+                        <button type="submit">Send</button>
+                    </li>
+                    
+                     
+            </fieldset>
+            
+        </form>
+        <section class="grid-container">
             <div>
                 <article>
-                    <h3>Suggested news letters for you</h3>
+                    <h3 class="editors-heading" >Suggested news letters for you</h3>
                     <span><a href="#">Don't show me this again</a> </span>
                     <div class="suggestions">
                         <div class="cards">
@@ -542,8 +582,8 @@
 
                 </article>
 
-                <article class="">
-                    <h3><a href="#">More in Space and Astronomy</a></h3>
+                <article >
+                    <h3 class="more-heading"><a href="#">More in Space and Astronomy</a></h3>
                     <div class="more">
                         <div class="more-in-space">
                             <a href="#">
