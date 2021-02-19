@@ -375,10 +375,6 @@ label {
   color: #326892;
 }
 
-.radio-buttons {
-  display: block;
-}
-
 textarea {
   width: 300px;
   height: 100px;
@@ -394,3 +390,5 @@ button {
 .credentials {
   width: 300px;
 }
+
+
